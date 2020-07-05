@@ -7,7 +7,7 @@ using namespace std;
      int *marks=new int[5];
      
      int total=0;
-     long cgpa;
+     double cgpa;
  student(){
      name="default";
      roll=0;
@@ -29,8 +29,8 @@ using namespace std;
      }
      return total;
  }
- long cgp(int*arr){
-     long tot=0;
+ double cgp(int*arr){
+     double tot=0;
      for(int i=0;i<5;i++){
          tot=tot+arr[i];}
          cgpa=tot/50;
